@@ -164,9 +164,12 @@ cd backend/
 위 명령어를 실행하면 아래 사진과 같이 frontend/build 폴더가 생성되었으며<br>
 backend/target/ 아래 war 파일이 생겼고,<br>
 war 파일의 classes/public/에 frontend/build 내용들이 복사된 것을 볼 수 있다.<br>
-
-<img src="./screenshot/file_tree.png" alt="빌드된 프로젝트의 파일 트리" title="빌드된 프로젝트의 파일 트리"></img>
-<img src="./screenshot/war.png" alt="빌드된 war의 파일 트리" title="빌드된 war의 파일 트리"></img>
+<p align="center">
+    <img src="./screenshot/file_tree.png" alt="빌드된 프로젝트의 파일 트리" title="빌드된 프로젝트의 파일 트리"></img>
+</p>
+<p align="center">
+    <img src="./screenshot/war.png" alt="빌드된 war의 파일 트리" title="빌드된 war의 파일 트리"></img>
+</p>
 
 ### 서버 실행
 ```bash
@@ -175,5 +178,9 @@ java -jar backend-0.0.1-SNAPSHOT.war
 ```
 
 ### 결과
-<img src="./screenshot/main.png" alt="메인 페이지" title="메인 페이지"></img>
-<img src="./screenshot/dashboard.png" alt="두 번째 페이지" title="두 번째 페이지"></img>
+<p align="center">
+    <img src="./screenshot/main.png" alt="메인 페이지" title="메인 페이지"></img>
+</p>
+<p align="center">
+    <img src="./screenshot/dashboard.png" alt="두 번째 페이지" title="두 번째 페이지"></img>
+</p>
