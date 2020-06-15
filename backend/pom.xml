@@ -83,7 +83,7 @@
 							<goal>npm</goal>
 						</goals>
 						<configuration>
-							<argument>run build</argument>
+							<arguments>run build</arguments>
 						</configuration>
 					</execution>
 				</executions>
