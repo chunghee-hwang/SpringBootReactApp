@@ -79,9 +79,9 @@ public class WebController implements ErrorController  {
 
 ## Maven으로 백엔드, 프론트엔드 한번에 빌드하기
 
-React.js를 빌드하기 위해선 npm, node가 필요하다. 그런데 이를 maven 위에서 사용하기 위해 [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)가 필요하고,<br>
+React.js를 빌드하기 위해선 npm, node가 필요합니다. 그런데 이를 maven 위에서 사용하기 위해 [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)가 필요하고,<br>
 
-빌드된 WAR 파일에 frontend/build/ 아래 있는 파일들을 포함시키려면 [maven-antrun-plugin](https://maven.apache.org/plugins/maven-antrun-plugin/)가 필요하다.<br>
+빌드된 WAR 파일에 frontend/build/ 아래 있는 파일들을 포함시키려면 [maven-antrun-plugin](https://maven.apache.org/plugins/maven-antrun-plugin/)가 필요합니다.<br>
 
 ### backend/pom.xml의 <plugins>에 다음 내용 추가
 ```json
@@ -163,7 +163,7 @@ cd backend/
 <br>
 위 명령어를 실행하면 아래 사진과 같이 frontend/build 폴더가 생성되었으며<br>
 backend/target/ 아래 war 파일이 생겼고,<br>
-war 파일의 classes/public/에 frontend/build 내용들이 복사된 것을 볼 수 있다.<br>
+war 파일의 classes/public/에 frontend/build 내용들이 복사된 것을 볼 수 있습니다.<br>
 <p align="center">
     <img src="./screenshot/file_tree.png" alt="빌드된 프로젝트의 파일 트리" title="빌드된 프로젝트의 파일 트리"></img>
 </p>
