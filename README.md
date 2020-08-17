@@ -156,7 +156,8 @@ React.js를 빌드하기 위해선 npm, node가 필요합니다. 그런데 이�
 ### WAR 빌드(JAR 빌드도 이와 동일함)
 ```bash
 cd backend/
-mvn clean install
+mvn clean
+mvn install -DskipTests # JUnit Test 무시하고 install
 ```
 
 ## 결과 확인
