@@ -21,6 +21,7 @@ npm start
 npm install bootstrap react-bootstrap --save # 부트스트랩 모듈
 npm install react-router-dom --save # 라우터 모듈
 npm install axios --save # 서버와 통신하기 위한 모듈
+npm install maven # 메이븐 
 ```
 
 ### 프록시 설정
@@ -155,7 +156,7 @@ React.js를 빌드하기 위해선 npm, node가 필요합니다. 그런데 이�
 ### WAR 빌드(JAR 빌드도 이와 동일함)
 ```bash
 cd backend/
-./mvnw clean install
+mvn clean install
 ```
 
 ## 결과 확인
