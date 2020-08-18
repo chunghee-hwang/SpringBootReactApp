@@ -64,7 +64,7 @@ public class WebController implements ErrorController  {
     // 이를 방지하기 위해 에러가 발생하면 프론트엔드에서 작성한 frontend/src/index.html을 전송한다.
     @GetMapping({ "/", "/error" })
     public String index() {
-        return "index.html";
+        return "index";
     }
 
     /*400에러 발생 시 getErrorPath() 호출*/
@@ -73,6 +73,12 @@ public class WebController implements ErrorController  {
         return "/error";
     }
 }
+```
+
+#### resources/application.properties
+```
+spring.thymeleaf.prefix=classpath:/static/
+spring.mvc.view.suffix=.html
 ```
 
 자세한 백엔드 코드는 [여기](./backend/src/main/java/com/goodperson/backend/) 참고
